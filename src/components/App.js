@@ -10,7 +10,7 @@ class App extends React.Component {
       <div>
         <IndexLink to="/">Home</IndexLink>
         {' | '}
-        <Link to="/fuel-savings">Blog</Link>
+        <Link to="/blog">Blog</Link>
         {' | '}
         <Link to="/about">About</Link>
         <br/>

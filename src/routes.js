@@ -1,10 +1,10 @@
- import React from 'react';
+import React from 'react';
 import { Route, IndexRoute } from 'react-router';
 
 import App from './components/App';
 import HomePage from './components/HomePage';
  // eslint-disable-line import/no-named-as-default
-import blog from './containers/blog';
+import blog from './containers/blog.js';
 import AboutPage from './components/AboutPage.js';
 import NotFoundPage from './components/NotFoundPage.js';
 
