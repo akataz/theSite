@@ -15,8 +15,22 @@ body {
   -moz-font-smoothing: antialiased;
   font-smoothing: antialiased;
   font-weight: 300;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 100%;
+  text-align: center;
 }
+#app {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  position:absolute;
+  left:50%;
+  top:5%;
+  width:550px;
 
+  margin-left:-275px; /* -1/2 width */
+}
 td {
 	padding: 12px;
 }
@@ -24,8 +38,3 @@ td {
 h2 {
 	color: $vin-blue;
 }
-
-.savings { color: $vin-green; }
-.loss { color: $vin-red; }
-input.small { width: 46px; }
-td.fuel-savings-label { width: 175px; }
