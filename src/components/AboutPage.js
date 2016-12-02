@@ -7,11 +7,8 @@ const AboutPage = () => {
   return (
     <div>
       <h2 className="alt-header">About</h2>
-      <p>
+      <p className="textOnPage">
         Hi! My names Tyrus.
-      </p>
-      <p>
-        <Link to="/badlink">Click this bad link</Link> to see the 404 page.
       </p>
     </div>
   );

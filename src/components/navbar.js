@@ -1,6 +1,7 @@
 import React, { Component }from 'react';
 import { Navbar, NavItem, Nav } from 'react-bootstrap';
 import { SocialIcon } from 'react-social-icons';
+import { Link } from 'react-router';
 
 class navbarInstance extends Component {
     render() {
@@ -14,9 +15,9 @@ class navbarInstance extends Component {
           </Navbar.Header>
           <Navbar.Collapse>
             <Nav>
-              <NavItem eventKey={1} href="/blog">Blog</NavItem>
-              <NavItem eventKey={2} href="/about">About Me</NavItem>
-              <NavItem eventKey={2} href="#">Projects</NavItem>
+              <NavItem eventKey={1} href="/blog"><Link to="/blog">Blog</Link></NavItem>
+              <NavItem eventKey={2} href="/about"><Link to="/about">About Me</Link></NavItem>
+              <NavItem eventKey={2} href="#"><Link to="/projects">Projects</Link></NavItem>
               <NavItem eventKey={1} href="#">Contact</NavItem>
             </Nav>
             <Nav pullRight>

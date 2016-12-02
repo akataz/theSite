@@ -1,8 +1,9 @@
 /* Variables */
-$vin-blue: #5bb7db;
-$vin-green: #60b044;
-$vin-red: #ff0000;
-$white: #ffffff;
+$color-primary-0: #28546C;	// Main Primary color */
+$color-primary-1: #12191D;
+$color-primary-2: #213844;
+$color-primary-3: #02659A;
+$color-primary-4: #1B8FCD;
 
 /* Styles */
 body {
@@ -37,7 +38,7 @@ td {
 }
 h1 {
 
-  color: $vin-blue;
+  color: $color-primary-0;
 }
 #profile {
   border-radius: 50%;
@@ -73,14 +74,34 @@ h1 {
   padding-top: 10px;
 }
 .heading {
-  color: #000000;
-  font-weight: 600;
+  color: $color-primary-0;
+  font-weight: bold;;
+  background: rgb(0,0,0); /* for IE */
+  background: rgba(0,0,0,0.5);
+  border-radius: 10px;
 }
 
 .textOnPage {
   color: white;
   font-size: 1.5em;
+  background: rgb(0,0,0); /* for IE */
+  background: rgba(0,0,0,0.5);
+  border-radius: 10px;
 }
 .headingSmall {
   color: black;
+}
+
+.projectDesc {
+  color: white;
+  font-size: 1.5em;
+  font-weight:bolder;
+  background: rgb(0,0,0); /* for IE */
+  background: rgba(0,0,0,0.5);
+}
+
+#search {
+  padding: 20px;
+  background: rgb(34,34,34); /* for IE */
+  background: rgba(34,34,34,0.75);
 }
