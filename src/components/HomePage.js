@@ -1,12 +1,12 @@
 import React from 'react';
-import Navbar from "./navbar.js";
+import Navbar from './Navbar.js';
 //import {Link} from 'react-router';
 
 const HomePage = () => {
   return (
     <div>
-      <Navbar/>
       <h1>Tyrus Brenc</h1>
+      <Navbar/>
 
       <h2>Hello! Welcome to my personal website!  Please explore the links above for more.</h2>
       <div>I am a Full Stack Software Engineer specializing in Javascript with a passion for diving deep into tech to figure out
