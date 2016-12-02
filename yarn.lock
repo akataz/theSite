@@ -4945,6 +4945,13 @@ react-router@2.8.1:
     loose-envify "^1.2.0"
     warning "^3.0.0"
 
+react-social-icons:
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/react-social-icons/-/react-social-icons-2.5.1.tgz#fc0abf43d3e44550b72e585365d25b2bb22d1b49"
+  dependencies:
+    babel-runtime "^6.11.6"
+    classnames "^2.2.5"
+
 react-transform-catch-errors@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/react-transform-catch-errors/-/react-transform-catch-errors-1.0.2.tgz#1b4d4a76e97271896fc16fe3086c793ec88a9eeb"

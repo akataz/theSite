@@ -2,6 +2,7 @@
 $vin-blue: #5bb7db;
 $vin-green: #60b044;
 $vin-red: #ff0000;
+$white: #ffffff;
 
 /* Styles */
 body {
@@ -34,9 +35,9 @@ body {
 td {
 	padding: 12px;
 }
+h1 {
 
-h2 {
-	color: $vin-blue;
+  color: $vin-blue;
 }
 #profile {
   border-radius: 50%;
@@ -47,7 +48,7 @@ h2 {
 //   max-width: 100%;
 // }
 .content {
-  position: absolute;
+  position: relative;
   top: 0;
 }
 .img-responsive {
@@ -63,4 +64,15 @@ h2 {
   position: fixed;
   top: 0;
   left: 0;
+}
+.social {
+  position: relative;
+  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+.heading {
+  color: #000000;
+  font-weight: 600;
 }
