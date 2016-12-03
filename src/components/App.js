@@ -8,7 +8,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <img src="./../assets/background.jpg" className="img-responsive" alt="Responsive image"/>
+        <img src="./../assets/backgroundCity.jpg" className="img-responsive" alt="Responsive image"/>
         <div className="content">
           <Navbar />
           <br/>

@@ -8,7 +8,7 @@ const AboutPage = () => {
     <div>
       <h2 className="alt-header">About</h2>
       <p className="textOnPage">
-        Hi! My names Tyrus.
+        Hi! My name&rsquo;s Tyrus.
       </p>
     </div>
   );
